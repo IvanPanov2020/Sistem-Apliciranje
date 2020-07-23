@@ -1,0 +1,58 @@
+#podatoci2 {
+  text-align: left;
+  float: right;
+  padding-right: 300px;
+}
+
+#podatociid {
+  float: left;
+  padding-left: 200px;
+}
+#podatoci3 {
+  padding-top: 200px;
+  text-align: center;
+}
+#main-heder {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+#main-heder li {
+  list-style: none;
+  display: inline;
+  padding-left: 50px;
+}
+#main-heder a:link {
+  text-decoration: none;
+  color: white;
+}
+#main-heder a:visited {
+  text-decoration: none;
+  color: white;
+}
+#main-heder a:hover {
+  text-decoration: underline;
+  color: white;
+}
+#main-heder a:active {
+  text-decoration: underline;
+  color: white;
+}
+#podatoci4 li {
+  display: inline;
+  list-style: none;
+}
+
+#podatoci4 {
+  list-style: none;
+  text-align: left;
+  padding-bottom: 30px;
+}
+#podatoci4 ul {
+  list-style: none;
+  padding-right: 5px;
+}
+
+#podatoci5 {
+  padding-left: 37px;
+}

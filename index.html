@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sistem за Apliciranje</title>
+    <link rel="stylesheet" type="text/css" href="sistem.css" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body style="background-color: LightGray;">
+    <header id="main-heder">
+      <ul>
+        <li><a href="#"> Барање на Нов Договор</a></li>
+        <li><a href="">Барање за Обнова на Договор</a></li>
+        <li><a href="">Наплата на Сметки</a></li>
+      </ul>
+      <h1>Барање за Нов Договор</h1>
+    </header>
+    <main>
+      <form id="first-form">
+        <div id="podatociid">
+        <label for="name">Име</label><br>
+        <input type="text" name="name" /><br>
+        <label for="lname">Презиме</label><br>
+        <input type="text" name="lname" /><br>
+        <label for="citie">Град</label><br>
+        <input type="text" name="citie" /><br>
+        <label for="adresid">Адреса по ЛК</label><br>
+        <input type="text , number" name="adresid" /><br>
+        <label for="embr">ЕМБР </label><br>
+        <input type="text" name="embr" /><br>
+      </div>
+      <br>
+      <div id="podatoci2">
+        <label for="idnb">Број На Лична Карта</label><br>
+        <input type="text , nuber" name="idnb" /><br />
+        <label for="billadres">Адреса за достава на сметки</label><br>
+        <input type="text , number" name="billadres" /><br />
+        <label for="cemail">Email @</label><br>
+        <input type="email" name="cemail" /><br>
+      </div>
+      <br>
+     <br>
+     <br>
+    <div id="podatoci3">
+    <h3>Претплатникот аплицира зa:</h3>
+    
+      <input type="radio" name="mob">
+      <label for="mob">Мобилни Услуги</label>
+      <input type="radio" name="fix">
+     <label for="fix">Фиксни Услуги</label>
+    </div>
+    <br>
+<div id="podatoci4">
+  <ul>
+    <li>
+      <label for="tmodel" name="tmodel">Тарифен Модел</label>
+      <input list="tmodel" size="15px" name="tmodel">
+      <datalist id="tmodel">
+        <option value="">
+        <option value="Тарифен Модел S">
+        <option value="Тарифен Модел M">
+        <option value="Тарифен Модел L">
+        <option value="Тарифен Модел XL">
+      </datalist></li>
+  <li><label for="Brend" name="Brend">Телефон</label>
+  <input list="Brend" size="15px" name="Brend">
+  <datalist id="Brend">
+    <option value="Samsung">
+    <option value="iPhone">
+    <option value="Alcatel">
+    <option value="Nokia">
+    <option value="Huawei">
+  </datalist>
+</li>
+  <li><label for="Model" name="Model">Модел</label>
+  <input list="Model" size="15px" name="Model">
+  <datalist id="Model">
+    <option value="S10">
+    <option value="J20">
+    <option value="XR 10">
+    <option value="A7">
+    <option value="P20">
+  </datalist>
+</li>
+  <li><label for="cena" name="cena">Цена</label>
+  <input list="cena" size="15px" name="cena">
+  <datalist id="cena">
+    <option value="59.999ден">
+    <option value="24.999">
+    <option value="9.999">
+    <option value="4.999">
+    <option value="14.999">
+  </datalist>
+  </li>
+<li><label for="sub" name="sub">Субвенција</label>
+  <input list="sub" size="10px" name="sub">
+  <datalist id="sub">
+    <option value="2.000ден">
+    <option value="4.000ден">
+    <option value="5.000ден">
+    <option value="7.000ден">
+    <option value="10.000ден">
+  </datalist></li>
+  </li>
+<li><label for="doplata" name="doplata">Доплата</label>
+<input type="text , number" size="10px" name="doplata"></li>`
+</ul>
+  <br>
+  <div id="podatoci5">
+  <label for="checkbox">Уред на рати</label>
+  <input type="checkbox">
+  <br>
+  <br>
+
+  <label for="traenje" name="traenje">Време траење на договорот</label><br>
+  <input list="traenje" name="traenje">
+  <datalist id="traenje">
+    <option value="12 Месеци">
+    <option value="24 Месеци">
+    <option value="36 Месеци">
+    
+  </datalist>
+<br>
+<br>
+<input type="submit" value="Зачувај">
+
+<pre id="preview"></pre>
+<br>
+<input type="submit" value="Испринтај Документи">
+</div>
+
+    </main>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+   
+
+    <footer>
+
+    </footer>
+
+    <!-- Add your site or application content here -->
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>

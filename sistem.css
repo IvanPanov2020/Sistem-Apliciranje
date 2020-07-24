@@ -1,17 +1,23 @@
 #podatoci2 {
-  text-align: left;
-  float: right;
-  padding-right: 300px;
+  float: left;
+  padding-left: 300px;
 }
 
 #podatociid {
   float: left;
-  padding-left: 200px;
+  padding-left: 150px;
 }
+
+#staus {
+  padding-right: 300px;
+  float: right;
+}
+
 #podatoci3 {
-  padding-top: 200px;
-  text-align: center;
+  padding-left: 39px;
+  padding-top: 300px;
 }
+
 #main-heder {
   text-align: center;
   background-color: black;
@@ -54,5 +60,30 @@
 }
 
 #podatoci5 {
-  padding-left: 37px;
+  padding-left: 35px;
+}
+#podatoci6 li {
+  display: inline;
+  list-style: none;
+}
+
+#podatoci6 {
+  list-style: none;
+  text-align: left;
+  padding-bottom: 10px;
+}
+#podatoci6 ul {
+  list-style: none;
+  padding-right: 5px;
+}
+
+#podatoci7 {
+  padding-left: 39px;
+  padding-top: 10px;
+}
+#podatoci8 {
+  padding-left: 30px;
+}
+#mainbody {
+  float: none;
 }

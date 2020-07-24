@@ -22,7 +22,7 @@
     <meta name="theme-color" content="#fafafa" />
   </head>
 
-  <body style="background-color: LightGray;">
+  <body id=mainbody style="background-color: LightGray;">
     <header id="main-heder">
       <ul>
         <li><a href="#"> Барање на Нов Договор</a></li>
@@ -45,27 +45,38 @@
         <label for="embr">ЕМБР </label><br>
         <input type="text" name="embr" /><br>
       </div>
-      <br>
+      
       <div id="podatoci2">
-        <label for="idnb">Број На Лична Карта</label><br>
+        <label for="idnb">Број на Лична Карта</label><br>
         <input type="text , nuber" name="idnb" /><br />
         <label for="billadres">Адреса за достава на сметки</label><br>
         <input type="text , number" name="billadres" /><br />
         <label for="cemail">Email @</label><br>
         <input type="email" name="cemail" /><br>
+        <label for="kbr">Контак број</label><br>
+        <input type="tel" name="" id="kbr"><br>
       </div>
       <br>
+      <br>
+      <br>
+      <div id=staus>
+      <input type="radio" name="status2">
+      <label for="vraboten">Вработен</label><br>
+      <input type="radio" name="status2">
+     <label for="penzioner">Пензионер</label><br>
+     <input type="radio" name="status2">
+     <label for="nevraboten">Невработен</label><br>
+    </div>
      <br>
-     <br>
-    <div id="podatoci3">
-    <h3>Претплатникот аплицира зa:</h3>
-    
+      <div id="podatoci3">
       <input type="radio" name="mob">
       <label for="mob">Мобилни Услуги</label>
-      <input type="radio" name="fix">
-     <label for="fix">Фиксни Услуги</label>
     </div>
     <br>
+    <div id="podatoci5">
+      <input type="checkbox">
+      <label for="checkbox">Уред на рати</label>
+      </div>
 <div id="podatoci4">
   <ul>
     <li>
@@ -121,21 +132,66 @@
 <li><label for="doplata" name="doplata">Доплата</label>
 <input type="text , number" size="10px" name="doplata"></li>`
 </ul>
+</div>
   <br>
-  <div id="podatoci5">
-  <label for="checkbox">Уред на рати</label>
-  <input type="checkbox">
+  <div id="podatoci7">
+  <input type="radio" name="fix">
+  <label for="fix">Фиксни Услуги</label>
+</div>
   <br>
+  <div id="podatoci6">
+    <ul>
+      <li>
+        <label for="tmodelfix" name="tmodelfix">Тарифен Модел  Fix</label>
+        <input list="tmodelfix" size="15px" name="tmodelfix">
+        <datalist id="tmodelfix">
+          <option value="">
+          <option value="Fix S ">
+          <option value="Fix M">
+          <option value="Fix L">
+          <option value="Fix XL">
+        </datalist></li>
+    <li><label for="tmodelnet" name="tmodelnet">Тарифен Модел Net</label>
+    <input list="tmodelnet" size="15px" name="tmodelnet">
+    <datalist id="tmodelnet">
+      <option value="Net S">
+      <option value="Net M">
+      <option value="Net L">
+      <option value="Net XL">
+      </datalist>
+  </li>
+    <li><label for="tmodeltv" name="tmodeltv">Тарифен Модел TV</label>
+    <input list="tmodeltv" size="15px" name="tmodeltv">
+    <datalist id="tmodeltv">
+      <option value="TV S">
+      <option value="TV M">
+      <option value="TV L">
+      </datalist>
+  </li>
+    <li><label for="fixoprema" name="fixoprema">Опрема</label>
+    <input list="fixoprema" size="15px" name="fixoprema">
+    <datalist id="fixoprema">
+      <option value="Ресивер Gospel">
+      <option value="Модем">
+      <option value="TP Link">
+      </datalist>
+    </li>
+  
+  <li><label for="doplata" name="doplata">Доплата</label>
+  <input type="text , number" size="10px" name="doplata"></li>`
+  </ul>
+</div>
   <br>
-
+<div id="podatoci8">
   <label for="traenje" name="traenje">Време траење на договорот</label><br>
   <input list="traenje" name="traenje">
   <datalist id="traenje">
     <option value="12 Месеци">
     <option value="24 Месеци">
     <option value="36 Месеци">
-    
   </datalist>
+<br>
+ 
 <br>
 <br>
 <input type="submit" value="Зачувај">
@@ -148,16 +204,11 @@
     </main>
 
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     
    
 
     <footer>
-
+      <p style="text-align: center;">Copiright &copy; 2020 IvanP</p>
     </footer>
 
     <!-- Add your site or application content here -->
